@@ -1,11 +1,4 @@
 // //    1. Soal Latihan Topic 3 jadikan function beserta parameter agar menjadi dinamis
-// //  * 3. Pangkat Sederhana: Buatlah sebuah function yang menerima dua parameter: base (angka dasar) dan exponent (pangkat). Fungsi ini akan mengembalikan hasil dari base dipangkatkan exponent.
-// //  * 4. Cek Huruf Vokal: Buatlah sebuah fungsi yang menerima satu parameter berupa huruf (string dengan panjang 1) dan mengembalikan "Vokal" jika huruf adalah vokal dan "Bukan Vokal" jika huruf bukan vokal.
-
-
-
-
-
 // // MENGUBAH TIPE DATA
 console.log("==============mengubah tipe data==============");
 
@@ -53,51 +46,6 @@ function kaliBagi(num3,num4) {
     let kaliBagi = "hasil perkalian = "+ kali + " hasil pembagian = "+ bagi
     return kaliBagi
 } console.log(kaliBagi(num3,num4));
-
-// // PANGKAT BILANGAN
-// console.log("==============pangkat bilangan==============");
-
-// let bulat=3;
-// let exp= 4;
-// console.log(bulat**exp);
-
-// // RATA-RATA DARI ARRAY
-// console.log("==============rata rata array==============");
-
-// let arr= [5, 8, 12, 4, 6];
-// let avg= arr.reduce((a,b)=> a+b)/arr.length;
-// console.log(avg);
-
-// // BILANGAN GANJIL ATAU GENAP
-// console.log("==============bilangan ganjil genap==============");
-// let numb = 7;
-// if (numb %2==0 ) {
-//     console.log("ini genap ya");
-    
-// } else {
-//     console.log("ini ganjil ya");
-    
-// }
-
-// // RANDOM
-// console.log("==============random==============");
-// let a = Math.floor(Math.random()*5)+1;
-// console.log(a);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // 2. Konversi Celsius ke Fahrenheit: Buatlah sebuah fungsi yang menerima satu parameter berupa suhu dalam Celsius dan mengembalikan suhu dalam Fahrenheit. (Rumus: Fahrenheit = (Celsius * 9/5) + 32)
