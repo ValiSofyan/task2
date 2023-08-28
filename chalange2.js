@@ -47,7 +47,7 @@ function kaliBagi(num3,num4) {
     return kaliBagi
 } console.log(kaliBagi(num3,num4));
 
-
+console.log("==============konversi celcius fahrenheit==============");
 // 2. Konversi Celsius ke Fahrenheit: Buatlah sebuah fungsi yang menerima satu parameter berupa suhu dalam Celsius dan mengembalikan suhu dalam Fahrenheit. (Rumus: Fahrenheit = (Celsius * 9/5) + 32)
 let celcius = 45
 function temperatur (celcius) {
@@ -55,6 +55,8 @@ function temperatur (celcius) {
     return Fahrenheit
 } 
 console.log(temperatur(celcius));
+
+console.log("==============pangkat sederhana==============");
 //  * 3. Pangkat Sederhana: Buatlah sebuah function yang menerima dua parameter: base (angka dasar) dan exponent (pangkat). Fungsi ini akan mengembalikan hasil dari base dipangkatkan exponent.
 let base = 8
 let exp = 4
@@ -66,6 +68,14 @@ function result (base,exp) {
 
 console.log(result(base,exp));
 
-//  * 4. Cek Huruf Vokal: Buatlah sebuah fungsi yang menerima satu parameter berupa huruf (string dengan panjang 1) dan mengembalikan "Vokal" jika huruf adalah vokal dan "Bukan Vokal" jika huruf bukan vokal.
-// let vocal =[a,i,u,e,o]
 
+console.log("==============cek huruf vokal==============");
+//  * 4. Cek Huruf Vokal: Buatlah sebuah fungsi yang menerima satu parameter berupa huruf (string dengan panjang 1) dan mengembalikan "Vokal" jika huruf adalah vokal dan "Bukan Vokal" jika huruf bukan vokal.
+let c = "k"
+if (c=='a'||c=='A'||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'||c=='u'||c=='U') {
+    console.log(c,"adalah vokal");
+    
+} else {
+    console.log(c,"adalah konsonan");
+    return 0;
+}
